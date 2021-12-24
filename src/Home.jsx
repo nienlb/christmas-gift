@@ -29,7 +29,7 @@ export default class Home extends Component {
             <div className="side right" />
             <div className="side top">
               <span className="to">
-                <span className="name" id="nametag">Thân gửi bạn choẻ!</span>
+                <span className="name" id="nametag">Gửi bạn choẻ!</span>
               </span>
             </div>
             <div className="side bottom" />
