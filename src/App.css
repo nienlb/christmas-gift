@@ -18,8 +18,9 @@ html, body {
   text-align: center;
   margin: 0;
   padding: 0;
+  padding-bottom: 40px;
   color: #555;
-  font-family: 'Avenir';
+  font-family: 'roboto';
   font-weight: 100;
   font-size: 30px;
   align-self: flex-end;
@@ -108,7 +109,7 @@ html, body {
   height: 200px;
   position: absolute;
   display: block;
-  background: repeating-linear-gradient(45deg, #22fceae0, #22fceae0 20px, #eefd1d 20px, #eefd1d 40px);
+  background: repeating-linear-gradient(45deg, #E15252, #E15252 20px, #CBAC2F 20px, #CBAC2F 40px);
   top: 0;
   left: 0;
   transition: transform 400ms;
@@ -143,7 +144,7 @@ html, body {
   transform: translateZ(-2px) translateY(50px);
 }
 .present-box > .side.top .to:after {
-  content: 'Happy birth day ! :3';
+  content: 'Merry Christmas';
   display: inline-block;
   transform: rotateY(180deg);
   color: #900;
@@ -164,7 +165,7 @@ html, body {
 .present-box > .side.front {
   transform: translateZ(100px);
 }
-.imghbbd {
+.imgchristmas {
   text-align: center;
   margin-top: 5%;
 }

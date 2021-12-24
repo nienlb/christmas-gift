@@ -8,8 +8,8 @@ export default class Gift extends Component {
     return (
       <>
         <Preloader visible />
-        <div className='imghbbd'>
-          <img src="https://imgur.com/AD2QiBK.png" alt="Happy Birth Ông :D" width="60%" height="60%" />
+        <div className='imgchristmas'>
+          <img src="https://i.imgur.com/V5ypcfF.png" alt="Merry Christmas!" width="60%" height="60%" />
         </div>
       </>
     );

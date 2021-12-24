@@ -9,8 +9,8 @@ function moqua() {
 
 export default class Home extends Component {
   render() {
-  
-    var gift_image_url = 'https://imgur.com/AD2QiBK.png';
+
+    var gift_image_url = 'https://i.imgur.com/V5ypcfF.png';
 
     return (
       <section className="above-fold">
@@ -19,7 +19,7 @@ export default class Home extends Component {
             <div className="present">
               <div className="img-wrap" id="present-image">
                  <Link to='/gift'>
-                  <img src={gift_image_url} alt="Happy birthday" height="100" width="100" />
+                  <img src={gift_image_url} alt="Merry Christmas!" height="100" width="100" />
                 </Link>
               </div>
             </div>
@@ -29,13 +29,13 @@ export default class Home extends Component {
             <div className="side right" />
             <div className="side top">
               <span className="to">
-                <span className="name" id="nametag">Thư nhá :></span>
+                <span className="name" id="nametag">Gửi bạn choẻ !</span>
               </span>
             </div>
             <div className="side bottom" />
           </div>
         </div>
-        <p className="info-text">Quà nha quà nha :3 !! Ấn vào để mở nha :3</p>
+        <p className="info-text">Không được chỉnh chu, nhưng cũng có món quà nhỏ, nhận nhé :D!</p>
       </section>
 
     );
