@@ -9,7 +9,7 @@ export default class Gift extends Component {
       <>
         <Preloader visible />
         <div className='imgchristmas'>
-          <img src="https://i.imgur.com/V5ypcfF.png" alt="Merry Christmas!" width="60%" height="60%" />
+          <img src="https://i.imgur.com/uBGqORo.png" alt="Merry Christmas!" width="60%" height="60%" />
         </div>
       </>
     );

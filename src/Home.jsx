@@ -10,7 +10,7 @@ function moqua() {
 export default class Home extends Component {
   render() {
 
-    var gift_image_url = 'https://i.imgur.com/V5ypcfF.png';
+    var gift_image_url = 'https://i.imgur.com/uBGqORo.png';
 
     return (
       <section className="above-fold">
@@ -29,13 +29,13 @@ export default class Home extends Component {
             <div className="side right" />
             <div className="side top">
               <span className="to">
-                <span className="name" id="nametag">Gửi bạn choẻ !</span>
+                <span className="name" id="nametag">Thân gửi bạn choẻ!</span>
               </span>
             </div>
             <div className="side bottom" />
           </div>
         </div>
-        <p className="info-text">Không được chỉnh chu, nhưng cũng có món quà nhỏ, nhận nhé :D!</p>
+        <p className="info-text">Không được chỉnh chu, nhưng cũng có món quà nhỏ, nhận cho vui hén :D!</p>
       </section>
 
     );
